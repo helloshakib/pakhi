@@ -1,0 +1,271 @@
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-content span,h2,h1 {
+	font-size: 35px;
+}
+     .main-menu ul li {
+	margin-left: 28px;
+}
+    .blog-content a h2 {
+        font-size: 20px;
+}
+    .blog-content p {
+	font-size: 13px;
+}
+    .testimonial-item p {
+	padding: 0 123px;
+}
+    .testimonial-item p::before {
+	left: 82px;
+}
+    
+    
+    .image-bg {
+        background-size: 100% 100%;
+        width: 445px;
+        height: 270px;
+    }
+    .image-bg .image-item-scroll {
+      width: 335px;
+    height: 215px;
+    top: 14px;
+    left: 56px;
+    background-size: 100% auto;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.99px) {
+     .header-area {
+	padding: 0 11px;
+}
+     .container {
+	max-width: 100%;
+}
+    .logo a h3 {
+	font-size: 16px;
+}
+    .main-menu ul > li > a {
+	font-size: 13px;
+}
+    .main-menu ul li {
+	margin-left: 15px;
+}
+    .slider-area{
+        padding: 100px 0;
+    }
+    .slider-content span,h2,h1 {
+	font-size: 35px;
+}
+    .testimonial-item p {
+	padding: 0 55px;
+}
+    .testimonial-item p::before {
+	left: 20px;
+}
+    .footer-menu ul li a {
+	font-size: 11px;
+}
+    .blog-content span {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+    .meta-info ul li {
+	font-size: 12px;
+}
+    .meta-info span {
+	font-size: 12px;
+}
+    .copyright-area p {
+	font-size: 13px;
+}
+    .footer-head {
+	padding-top: 60px;
+}
+   
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767.99px) {
+    .header-area {
+	padding: 20px 0px 5px;
+}
+   .container {
+	max-width: 100%;
+}
+    .slider-area {
+	padding: 125px 0px;
+}
+    
+    .slider-content span,h2,h1 {
+	font-size: 35px;
+}
+    .slider-content p {
+	font-size: 14px;
+}
+    .testimonial-item p {
+	padding: 0 55px;
+}
+    .testimonial-item p::before {
+	left: 22px;
+}
+/*    404 page*/
+    .notfound .notfound-404 {
+    height: 110px;
+    line-height: 110px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
+  }
+    .notfound h2 {
+    padding: 33px 0 20px;
+}
+    
+    
+    
+.image-bg .image-item-scroll {
+    width: 340px;
+    left: 55px;
+}
+    
+.image-bg {
+    width: 450px;
+}
+    
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-area {
+	padding: 20px 0px 5px;
+}
+   .container {
+	max-width: 100%;
+}
+    .slider-area {
+	padding: 80px 0px;
+}
+    .slider-content span,h2,h1 {
+	font-size: 28px;
+}
+    .slider-content p {
+	font-size: 13px;
+}
+    .testimonial-item p {
+	padding: 0 36px;
+}
+    .testimonial-item p::before {
+	left: 2px;
+}
+    .blog-content a h2 {
+	font-size: 20px;
+}
+   .footer-menu ul li a {
+	font-size: 11px;
+}
+    #scrollUp {
+	bottom: 20px;
+    right: 25px;
+}
+    .copyright-area p {
+	font-size: 13px;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width: 575.98px) {
+    .slider-content{
+		text-align: center;
+	}
+    .slider-content span,h2,h1 {
+	font-size: 25px;
+}
+    .home-box {
+    padding: 55px 100px;
+}
+    .home-box .custom-btn{
+        font-size: 12px;
+        padding: 8px 26px;
+    }
+    .testimonial-item p {
+	padding: 0 23px;
+        font-size: 14px;
+}
+    .testimonial-item p::before {
+	font-size: 18px;
+	left: -8px;
+	top: -2px;
+}
+    .blog-content a h2 {
+	font-size: 17px;
+}
+    .portfolio-content a h3 {
+	font-size: 20px;
+}
+    .portfolio-content span {
+	font-size: 14px;
+}
+     #scrollUp {
+	bottom: 20px;
+    right: 25px;
+}
+    .copyright-area p {
+	font-size: 13px;
+}
+    
+
+}
+
+@media (max-width: 480px){
+   .col-6 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+    .typed-cursor{
+        display: none;
+    }
+    .type{
+        margin-bottom: 15px;
+    }
+    .slider-content h2, h1{
+        font-size: 20px;
+    }
+    .custom-btn{
+        font-size: 12px;
+    }
+    
+    
+
+    .text_heading {
+        font-size: 40px;
+    }
+
+    .image-bg {
+        background-size: 320px 220px;
+        height: 220px;
+        margin-left: -20px;
+        width: 320px;
+    }
+
+    .image-bg .image-item-scroll {
+        background-position: center 0;
+        background-repeat: no-repeat;
+        height: 173px;
+        left: 41px;
+        position: absolute;
+        top: 12px;
+        width: 240px;
+    }
+
+    .glare {
+        display: none;
+    }
+}
